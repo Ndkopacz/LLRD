@@ -1,0 +1,11 @@
+/your-project-directory/
+    ├── index.html            # Main homepage
+    ├── styles.css            # Global styles
+    ├── web_images/               # Folder for images
+    │   └── web_emblem.png
+    ├── team_members/
+    │   └── index.html        # team members page
+    ├── timeline/
+    │   └── index.html        # timeline page
+    ├── pictures_demos/
+    │   └── index.html        # pictures and demos page
