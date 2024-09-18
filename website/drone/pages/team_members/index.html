@@ -11,27 +11,31 @@ When duplicating this page you need to do the following
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Webpage</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="images/NATE_circle_lowquality.png" type="image/png">
+    <title>Template html</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="icon" href="../../images/NATE_circle_lowquality.png" type="image/png">
 </head>
-<body class="home-page">
+<body>
     <!-- Navigation Menu -->
-    <nav class="home-page-nav">
+    <nav>
         <div class="nav-left">
-            <a href="index.html" class="nav-link">Nathan Kopacz</a>
+            <a href="../../index.html" class="nav-link">
+                <img src="../../images/EYE_1024px.png" alt="Logo" class="nav-logo">
+            </a>
         </div>
         <div class="nav-right">
-            <a href="pages/about" class="nav-link">About</a>
-            <a href="pages/projects" class="nav-link">Projects</a>
-            <a href="pages/contact" class="nav-link">Contact</a>
+            <a href="../../pages/team_members" class="nav-link">Team Members</a>
+            <a href="../../pages/timeline" class="nav-link">Timeline</a>
+            <a href="../../pages/demos" class="nav-link">Demos</a>
+            <a href="../../pages/contact_us" class="nav-link">Contact Us</a>
         </div>
     </nav>
 
-    <!-- Main Image Section -->
-    <header class="main-header home-page">
-        <!-- <img src="./images/Desktop_background.jpg" alt="Desktop Background Image"> -->
-        <img src="./images/NATE_circle_1500boarder.png" alt="Desktop Background Image">
+    <header>
+        <div class="container">
+            <h1>Template Header</h1>
+            <p>Additonal Information</p>
+        </div>
     </header>
 
     <section class="generic-section">
@@ -65,10 +69,15 @@ When duplicating this page you need to do the following
     <!-- Footer Section -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 Nathan Kopacz. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="https://advancing.colostate.edu/ENG/ECE_SRDESIGN/GIVE" target="_blank">Support our program</a></li>
+                <li><a href="http://www.engr.colostate.edu/ECE401/AY24_senior_design_projects.php" target="_blank">Other ECE Sr. Design projects</a></li>
+                <li><a href="https://www.engr.colostate.edu/ece/" target="_blank">ECE Department’s main page</a></li>
+                <li><a href="http://www.colostate.edu/" target="_blank">CSU main website</a></li>
+            </ul>
         </div>
     </footer>
 
-    <script src="js/nav_scroll.js"></script>
+    <script src="../../js/nav_scroll.js"></script>
 </body>
 </html>

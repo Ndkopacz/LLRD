@@ -169,3 +169,30 @@ footer {
     align-items: center; /* Vertically center content */
     margin-top: 20px;
 }
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.footer-links a {
+    /* color: #0071cc; */
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-image {
+    width: auto;  /* Adjust as needed */
+    height: 60px;
+    margin-right: 15px;
+}
