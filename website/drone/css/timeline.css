@@ -1,0 +1,19 @@
+.full-width-image-section {
+    width: calc(100% - 40px); /* 20px margin on each side */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.full-width-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0; /* Remove any default margins */
+    padding: 0;
+}
+
+.custom-font {
+    font-weight: bold; /* Optional: make the text bold */
+    color: #333; /* Optional: change the color */
+    margin-bottom: 5px; /* Adds space between the header and the paragraph */
+}
