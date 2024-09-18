@@ -1,0 +1,171 @@
+
+:root {
+    --nav-height: 40px; /* Adjust this value as needed */
+}
+
+body {
+    margin-top: var(--nav-height);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #222222; /* Default text color - Dark Grey */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Section */
+header {
+    background: #222222; /* Dark Grey */
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: var(--nav-height);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+
+/* -----------------------Navigation Menu------------------------ */
+/* Style the navigation bar */
+
+/* TODO - Make nav transparent at the start*/
+/* TODO - add image to home screen */
+nav {
+    /* background-color: #0071cc; Set the background color */
+    background-color: #222222;
+    width: 100%; /* Full width across the screen */
+    padding: 10px 20px; /* Add some padding */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Separate items to left and right */
+    align-items: center; /* Center items vertically */
+
+    position: fixed; /* Stick the nav panel to the top */
+    top: 0; /* Position it at the top */
+    z-index: 1000; /* Ensure it's above other elements */
+    transition: background-color 0.5s ease-in-out;
+
+    height: var(--nav-height); /* Set the height using the variable */
+
+    box-sizing: border-box; /* Include padding in the element's total width */
+}
+
+.home-page-nav {
+    background-color: rgba(34, 34, 34, 0); /* Fully transparent background */
+}
+
+.nav-scrolled {
+    background-color: #0071cc;  /* Alter this if you want the nav panel to change colors when you scroll */
+    transition: background-color 0.5s ease-in-out;
+}
+
+/* Style the navigation links */
+.nav-left a, .nav-right a {
+    color: white; /* Make the text white */
+    /* color: #222222; */
+    text-decoration: none; /* Remove the underline */
+    padding: 3px 15px; /* Add padding around the links */
+    font-size: 18px; /* Set font size */
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left img.nav-logo {
+    height: calc(0.8 * var(--nav-height)); /* Ensure it doesn't exceed the nav height */
+    width: auto; /* Maintain the aspect ratio */
+}
+
+/* Hover effect for the links */
+.nav-left a:hover, .nav-right a:hover {
+    background-color: #005fa3; /* Slightly darker on hover */
+    border-radius: 5px; /* Round the corners */
+}
+
+/* Ensure the right-side links are displayed inline */
+.nav-right {
+    display: flex;
+    gap: 15px; /* Space between the right-side links */
+}
+
+/* --------------------------- Main Image ----------------------------------- */
+
+.main-header {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+.main-header img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Add some content padding after the image so it doesn't overlap */
+section {
+    padding-top: 50px;
+}
+
+/* Remove top margin for elements within the .home page */
+.home-page header {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ----------------------------Generic Section Styling ----------------------------------- */
+
+.generic-section {
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 40px 20px; /* Space around the section */
+    margin: 20px 0; /* Space between this section and others */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.generic-section .container {
+    width: 80%; /* Container width that adjusts based on screen size */
+    max-width: 1000px; /* Maximum width for large screens */
+    text-align: left;
+}
+
+.generic-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px; /* Space between the heading and the first paragraph */
+    color: #0071cc; /* Blue heading color */
+}
+
+.generic-section p {
+    font-size: 1.1em; /* Slightly larger font size for readability */
+    line-height: 1.8; /* Improved line spacing for readability */
+    margin-bottom: 15px; /* Space between paragraphs */
+    color: #333; /* Darker text color */
+}
+
+
+
+/* TODO - Change height of footer to match the navigation bar */
+/* Footer Section */
+footer {
+    background: #222222;
+    color: #ffffff;
+    text-align: center;
+    /* height: var(--nav-height); Set the height using the variable */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    margin-top: 20px;
+}

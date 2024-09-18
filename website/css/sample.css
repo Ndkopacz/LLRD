@@ -1,0 +1,83 @@
+/* nav_bar_styles.css */
+
+/* General Navbar Styling */
+.nav_vt68lmkxr {
+    background-color: rgba(255, 255, 255, 1); /* White background */
+    height: 2.5rem; /* Set the height of the navbar */
+    padding-top: 0rem; /* Remove top padding */
+    padding-bottom: 0rem; /* Remove bottom padding */
+}
+
+/* Positioning of Navbar Items */
+.nav_vt68lmkxr .navbar-inner .navbar-left {
+    left: 2.5rem; /* Logo positioned to the left with some margin */
+}
+
+.nav_vt68lmkxr .navbar-inner .navbar-right {
+    right: 2.5rem; /* Menu items positioned to the right with some margin */
+}
+
+/* Logo Styling */
+.nav_vt68lmkxr .navbar-inner .logo a {
+    color: #141414; /* Dark color for logo text */
+    font-size: 0.6666666666666666rem; /* Set the logo text size */
+}
+
+.logo a {
+    text-transform: uppercase; /* Make logo text uppercase */
+    letter-spacing: 0.1111111111111111rem; /* Add letter spacing to logo */
+}
+
+/* Hamburger Menu Styling */
+.nav_vt68lmkxr .navbar-inner .hamburger a.menu-icon span {
+    background-color: #000000; /* Black color for the hamburger menu bars */
+    height: 2px; /* Set the height of each hamburger bar */
+}
+
+.nav_vt68lmkxr .navbar-inner .hamburger a.open-menu span::before {
+    transform: translateY(-6px); /* Adjust the position of the top bar */
+}
+
+.nav_vt68lmkxr .navbar-inner .hamburger a.open-menu span::after {
+    transform: translateY(6px); /* Adjust the position of the bottom bar */
+}
+
+.nav_vt68lmkxr .navbar-inner .hamburger a.menu-icon {
+    height: 14px; /* Set the height of the hamburger icon */
+}
+
+.nav_vt68lmkxr .navbar-inner .hamburger a.menu-icon span {
+    margin-top: 7px; /* Add space between the bars of the hamburger icon */
+}
+
+/* Navigation Menu Items Styling */
+.nav_vt68lmkxr .navbar-inner nav ul li a span {
+    font-size: 0.6666666666666666rem; /* Font size for menu items */
+    color: #141414; /* Dark color for menu items */
+    text-transform: uppercase; /* Make menu items uppercase */
+    letter-spacing: 0.1111111111111111rem; /* Add letter spacing to menu items */
+}
+
+.nav_vt68lmkxr .navbar-inner nav ul li a {
+    padding-left: 1.7777777777778rem; /* Left padding for menu items */
+    padding-right: 1.7777777777778rem; /* Right padding for menu items */
+}
+
+/* Overlay Menu Background */
+#overlay-menu {
+    background-color: rgba(245, 245, 245, 1); /* Light background color for overlay menu */
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (min-width: 992px) and (max-width: 1169.98px),
+       screen and (min-width: 768px) and (max-width: 991.98px),
+       screen and (min-width: 544px) and (max-width: 767.98px),
+       screen and (max-width: 543.98px) {
+    .nav_vt68lmkxr .navbar-inner .hamburger a.menu-icon {
+        height: 14px; /* Set hamburger menu icon height for smaller screens */
+    }
+
+    .nav_vt68lmkxr .navbar-inner .hamburger a.menu-icon span {
+        margin-top: 7px; /* Adjust spacing between hamburger bars */
+    }
+}

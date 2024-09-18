@@ -6,7 +6,7 @@ from watchdog.events import FileSystemEventHandler
 import threading
 import time
 
-PORT = 8000
+PORT = 80
 
 # Global variable to control the server
 server = None

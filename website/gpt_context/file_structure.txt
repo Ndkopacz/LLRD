@@ -1,11 +1,21 @@
-/your-project-directory/
-    ├── index.html            # Main homepage
-    ├── styles.css            # Global styles
-    ├── web_images/               # Folder for images
-    │   └── web_emblem.png
-    ├── team_members/
-    │   └── index.html        # team members page
-    ├── timeline/
-    │   └── index.html        # timeline page
-    ├── pictures_demos/
-    │   └── index.html        # pictures and demos page
+/NDKopacz.github.io/
+    ├── index.html                  # Main homepage
+    ├── Dockerfile                  # Dockerfile used for deployment
+    ├── README.md                   # Contains run instructions
+    ├── run_server.py               # Function to call to start the server when testing
+    ├── css/                        # Folder for css
+    │   └── nav_panel.css
+    │   └── sample.css              # css from the internet for inspiration
+    │   └── styles.css              # Global styles
+    ├── images/                     # Folder for images
+    │   └── NATE_circle_lowquality.png
+    ├── js/                         # Folder for all javascript
+    │   └── nav_scroll.js           # Controls the navigation pannel when you scroll
+    ├── pages/                      # Folder for all html pages
+    │   └── about/
+    │       └── index.html          # About Me page
+    │   └── projects/
+    │       └── index.html          # Projects page
+    │   └── contact/
+    │       └── index.html          # Contact page
+    │   └── personal_sample.html    # Give the general layout to replicate (nave bar and footer)
