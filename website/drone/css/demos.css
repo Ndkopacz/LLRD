@@ -1,0 +1,35 @@
+.demo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px; /* Space between text and the images */
+    flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+}
+
+.demo-text {
+    flex: 1; /* Allows the text to take up more space */
+}
+
+.image-container {
+    display: flex;
+    gap: 10px; /* Space between the two images */
+}
+
+.demo-image {
+    width: 180px; /* Adjust width for 3:4 ratio */
+    height: 240px; /* Set height for 3:4 ratio */
+    object-fit: cover; /* Ensures the image covers the box area without distortion */
+    box-shadow: -10px 15px 5px rgba(0, 0, 0, 0.2); /* Adds a slight shadow */
+    margin-bottom: 20px;
+}
+
+/* Specific styles for rounding only the outer corners */
+.demo-image.left {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.demo-image.right {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

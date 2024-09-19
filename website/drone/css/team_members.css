@@ -1,5 +1,5 @@
 .link-icon {
-    width: 20px; /* Adjust the size as needed */
+    width: 30px; /* Adjust the size as needed */
     height: auto;
     margin-left: 10px; /* Adds spacing between the name and the icon */
     vertical-align: middle; /* Aligns the icon with the text */
@@ -16,11 +16,11 @@
 .profile-text {
     flex: 1; /* Allows the text to take up more space */
 }
-
 .portrait-image {
     width: 250px; /* Larger size */
     height: 250px; /* Ensures the image is square */
     border-radius: 20px; /* Rounded corners */
     object-fit: cover; /* Ensures the image covers the box area without distortion */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a slight shadow for styling */
+    box-shadow: -10px 15px 5px rgba(0, 0, 0, 0.2); /* Optional: adds a slight shadow for styling */
+    margin-bottom: 20px;
 }
