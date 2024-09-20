@@ -148,6 +148,12 @@ section {
     color: #0071cc; /* Blue heading color */
 }
 
+.generic-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px; /* Space between the heading and the first paragraph */
+    color: #0071cc; /* Blue heading color */
+}
+
 .generic-section p {
     font-size: 1.1em; /* Slightly larger font size for readability */
     line-height: 1.8; /* Improved line spacing for readability */
